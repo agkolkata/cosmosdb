@@ -7,7 +7,7 @@ terraform {
   }
   backend "azurerm" {
     resource_group_name  = "terraform-test"
-    storage_account_name = "henrystore"
+    storage_account_name = "agstore"
     container_name       = "terraform"
     key                  = "TerraformTemplate"
   }
